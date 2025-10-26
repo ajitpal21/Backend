@@ -20,6 +20,10 @@ app.get('/youtube', (req, res) => {
     res.send('<h2>chai and code</h2>')
 })
 
+app.get('/pal', (req, res) => {
+    res.send('<h2>I am influencer.</h2>')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
