@@ -1,0 +1,19 @@
+{
+  "name": "connect_backend",
+  "version": "1.0.0",
+  "description": "how to connect backend with frontend",
+  "main": "server.js",
+
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Ajit",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
