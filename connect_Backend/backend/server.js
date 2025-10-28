@@ -1,12 +1,15 @@
 import express from 'express';
 const app = express();
 
-app.get('/', (req, res) => {
-  res.send('Server is Ready');
-});
+app.use(express.static('dist'));
+
+
+// app.get('/', (req, res) => {
+//   res.send('Server is Ready');
+// });
 
   //get a list of 5 jokes
-   app.get('/jokes', (req, res) => {
+   app.get('/api/jokes', (req, res) => {
     const jokes = [ 
       {
          id: 1,
